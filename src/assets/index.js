@@ -24,9 +24,9 @@ import threejs from "./tech/threejs.svg";
 
 import megaCrafter from "./company/megaCrafter.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import foodieFiend from "./foodieFiend.png";
+import homeRentals from "./homeRentals.png";
+import mafaman from "./mafaman.png";
 
 export {
   logo,
@@ -52,7 +52,7 @@ export {
   typescript,
   threejs,
   megaCrafter,
-  carrent,
-  jobit,
-  tripguide,
+  foodieFiend,
+  homeRentals,
+  mafaman,
 };

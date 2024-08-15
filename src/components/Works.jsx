@@ -41,7 +41,7 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='w-1/2 h-1/2 '
               />
             </div>
           </div>
@@ -69,7 +69,7 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <div className="text-center">
+    <div className="text-center" id="projects">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>

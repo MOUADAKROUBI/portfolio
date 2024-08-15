@@ -17,9 +17,9 @@ import {
   figma,
   docker,
   megaCrafter,
-  carrent,
-  jobit,
-  tripguide,
+  foodieFiend,
+  homeRentals,
+  mafaman,
   threejs,
 } from "../assets";
 
@@ -31,6 +31,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -157,66 +161,73 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Homes Rent",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage rental properties, and enables property owners to list their properties for rent.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySQL",
         color: "green-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "white-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: homeRentals,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "FoodieFiend",
+    description: "this project compiles a list of restaurants and cafes located near customers or enables searching for restaurants in a specific city.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: foodieFiend,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "MafamanRentals",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based platform that allows users to search, reserve for villas, appartements, penthouses, care hire, and manage rental properties, and enables property owners to list their properties for rent.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "frame motion",
+        color: "white-text-gradient",
+      },
+      {
+        name: "material ui",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: mafaman,
     source_code_link: "https://github.com/",
   },
 ];
