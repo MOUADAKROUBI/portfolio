@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   nodejs,
@@ -18,7 +19,7 @@ import {
   docker,
   megaCrafter,
   foodieFiend,
-  homeRentals,
+  ouestpeche,
   mafaman,
   threejs,
 } from "../assets";
@@ -77,6 +78,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs
   },
   {
     name: "Redux Toolkit",
@@ -161,28 +166,23 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Homes Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage rental properties, and enables property owners to list their properties for rent.",
+    name: "Ouest Peche",
+    description: "Built an e-commerce platform for fishing gear with a responsive design, intuitive UI, and secure checkout using NextJS.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MySQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Laravel",
+        name: "nextjs",
         color: "white-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "wix dashboard",
+        color: "green-text-gradient",
       },
     ],
-    image: homeRentals,
+    image: ouestpeche,
     source_code_link: "https://github.com/",
   },
   {
