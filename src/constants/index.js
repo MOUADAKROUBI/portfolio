@@ -183,7 +183,7 @@ const projects = [
       },
     ],
     image: ouestpeche,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MOUADAKROUBI/ouest-piche",
   },
   {
     name: "FoodieFiend",
@@ -203,7 +203,7 @@ const projects = [
       },
     ],
     image: foodieFiend,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MOUADAKROUBI/restaurants",
   },
   {
     name: "MafamanRentals",
@@ -228,7 +228,7 @@ const projects = [
       },
     ],
     image: mafaman,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MOUADAKROUBI/hotel-booking",
   },
 ];
 
