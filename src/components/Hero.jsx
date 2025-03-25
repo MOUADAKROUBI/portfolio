@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { logo } from "../assets";
+import { logo, mypicture } from "../assets";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
@@ -36,14 +36,15 @@ const Hero = () => {
         {!scrolled && (
           <div className="profile hidden xs:block">
             <img
-              className="w-50 h-40 rounded-full border-4 border-[#915EFF]"
-              src={logo}
+              src={mypicture}
               alt="profile"
             />
           </div>
         )}
 
-        <div>
+        <div
+          className="presentation relative rounded-[50px] border-4 border-[#915EFF] p-5"
+        >
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">MOUAD</span>
           </h1>

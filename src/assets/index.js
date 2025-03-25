@@ -1,4 +1,5 @@
 import logo from "./logo_mo.jpg";
+import mypicture from "./mypicture.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -31,6 +32,7 @@ import mafaman from "./mafaman.png";
 
 export {
   logo,
+  mypicture,
   backend,
   creator,
   mobile,
